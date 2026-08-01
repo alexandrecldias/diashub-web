@@ -1,0 +1,11 @@
+.next
+node_modules
+coverage
+dist
+build
+out
+
+package-lock.json
+
+public/**/*.svg
+public/**/*.ico
