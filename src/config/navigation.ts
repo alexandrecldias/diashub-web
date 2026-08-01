@@ -5,35 +5,23 @@ export type NavigationItem = {
 
 export const mainNavigation: NavigationItem[] = [
   {
-    label: "Empresa",
-    href: "/empresa",
+    label: "Início",
+    href: "#inicio",
+  },
+  {
+    label: "Sobre",
+    href: "#sobre",
   },
   {
     label: "Serviços",
-    href: "/servicos",
+    href: "#servicos",
   },
   {
     label: "Produtos",
-    href: "/produtos",
-  },
-  {
-    label: "Casos de Engenharia",
-    href: "/casos-de-engenharia",
-  },
-  {
-    label: "Laboratório",
-    href: "/laboratorio",
-  },
-  {
-    label: "Blog Técnico",
-    href: "/blog",
-  },
-  {
-    label: "Open Source",
-    href: "/open-source",
+    href: "#produtos",
   },
   {
     label: "Contato",
-    href: "/contato",
+    href: "#contato",
   },
 ];
