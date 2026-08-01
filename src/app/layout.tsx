@@ -64,7 +64,11 @@ type RootLayoutProps = Readonly<{
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang={siteConfig.locale}>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>{children}</body>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} bg-slate-50 text-slate-900 antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
