@@ -40,22 +40,29 @@ export function Hero() {
           <Card className="bg-slate-950 text-white">
             <div className="space-y-4">
               <div className="flex items-center justify-between gap-4">
-                <p className="text-sm font-medium text-slate-300">Wireframe institucional</p>
+                <p className="text-sm font-medium text-slate-300">
+                  Engenharia orientada à evolução
+                </p>
+
                 <Badge className="border-slate-700 bg-slate-900 text-slate-200">
-                  Estrutura base
+                  Visão técnica
                 </Badge>
               </div>
+
               <div className="grid gap-3 sm:grid-cols-2">
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                   <p className="text-xs uppercase tracking-wide text-slate-400">Arquitetura</p>
+
                   <p className="mt-2 text-sm text-slate-200">
-                    Clareza técnica e evolução sustentável.
+                    Soluções estruturadas para evoluir com segurança e sustentabilidade.
                   </p>
                 </div>
+
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                   <p className="text-xs uppercase tracking-wide text-slate-400">Entrega</p>
+
                   <p className="mt-2 text-sm text-slate-200">
-                    Base pronta para crescer com o conteúdo final.
+                    Engenharia aplicada do planejamento à implementação e evolução.
                   </p>
                 </div>
               </div>
@@ -64,14 +71,16 @@ export function Hero() {
           <div className="grid gap-3 sm:grid-cols-2">
             <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
               <p className="text-xs uppercase tracking-wide text-slate-500">Modernização</p>
+
               <p className="mt-2 text-sm text-slate-700">
-                Integração, estabilidade e evolução gradual.
+                Evolução de sistemas legados com redução de riscos e continuidade operacional.
               </p>
             </div>
             <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-              <p className="text-xs uppercase tracking-wide text-slate-500">Produtos</p>
+              <p className="text-xs uppercase tracking-wide text-slate-500">Produtos digitais</p>
+
               <p className="mt-2 text-sm text-slate-700">
-                Iniciativas preparadas para validação futura.
+                Ideias transformadas em aplicações funcionais, da experimentação à entrega.
               </p>
             </div>
           </div>
