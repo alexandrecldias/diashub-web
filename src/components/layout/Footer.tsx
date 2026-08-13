@@ -2,8 +2,8 @@ import { Container } from "@/components/ui/Container";
 import { mainNavigation } from "@/config/navigation";
 
 const socialLinks = [
-  { label: "GitHub", href: "#" },
-  { label: "LinkedIn", href: "#" },
+  { label: "GitHub", href: "https://github.com/alexandrecldias" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/alexandre-a-305b4223/" },
 ];
 
 export function Footer() {

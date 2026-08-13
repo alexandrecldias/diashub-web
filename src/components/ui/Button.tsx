@@ -27,8 +27,8 @@ const baseClasses =
   "inline-flex items-center justify-center rounded-full border px-5 py-3 text-sm font-medium transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-900";
 
 const variantClasses: Record<ButtonVariant, string> = {
-  primary: "border-slate-900 bg-slate-900 text-white hover:border-slate-700 hover:bg-slate-700",
-  secondary: "border-slate-300 bg-white text-slate-900 hover:border-slate-400 hover:bg-slate-50",
+  primary: "border-slate-900 bg-slate-900 !text-white hover:border-slate-700 hover:bg-slate-700",
+  secondary: "border-slate-300 bg-white !text-slate-900 hover:border-slate-400 hover:bg-slate-50",
 };
 
 function isPlainAnchorHref(href: string) {

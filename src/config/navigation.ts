@@ -17,6 +17,10 @@ export const mainNavigation: NavigationItem[] = [
     href: "#servicos",
   },
   {
+    label: "Experiência",
+    href: "#experiencia",
+  },
+  {
     label: "Produtos",
     href: "#produtos",
   },
