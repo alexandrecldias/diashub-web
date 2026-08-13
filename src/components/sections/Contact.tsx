@@ -37,14 +37,20 @@ export function Contact() {
             </p>
             <p>
               LinkedIn:{" "}
-              <a className="font-medium text-slate-900 underline-offset-4 hover:underline" href="#">
-                configurar no futuro
+              <a
+                className="font-medium text-slate-900 underline-offset-4 hover:underline"
+                href="https://www.linkedin.com/in/alexandre-a-305b4223/"
+              >
+                alexandre-a-305b4223
               </a>
             </p>
             <p>
               GitHub:{" "}
-              <a className="font-medium text-slate-900 underline-offset-4 hover:underline" href="#">
-                configurar no futuro
+              <a
+                className="font-medium text-slate-900 underline-offset-4 hover:underline"
+                href="https://github.com/alexandrecldias"
+              >
+                alexandrecldias
               </a>
             </p>
           </div>
